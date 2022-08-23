@@ -178,7 +178,7 @@ header .container .header__links .dropdown:hover .dropdown-content {
   flex-direction: column;
   width: 100%;
   max-width: 380px;
-  min-height: 501px;
+  height: 501px;
   margin: 20px 0;
   transition: background-size 1s ease;
 }
@@ -194,12 +194,23 @@ header .container .header__links .dropdown:hover .dropdown-content {
   background-size: 100%;
 }
 .courses .courses__wrapp .box__lamin {
-  background: url(../img/laminirovanie.jpg) no-repeat center;
+  background: url(../img/eyes.jpg) no-repeat center;
   background-size: 100%;
 }
 .courses .courses__wrapp .box__shugaring {
   background: url(../img/shugaring.jpg) no-repeat center;
   background-size: 100%;
+}
+.courses .courses__wrapp .box__honey {
+  background: url(../img/honey.jpg) no-repeat center;
+  background-size: 100%;
+}
+.courses .courses__wrapp .box__reserv {
+  background: url(../img/manicurv2.jpg) no-repeat center;
+  background-size: 100%;
+}
+.box-soon{
+    background-color: #f7f5ee;
 }
 .courses .courses__wrapp .courses__wrapp--box .box__title {
   width: 100%;
@@ -364,7 +375,7 @@ header .container .header__links .dropdown:hover .dropdown-content {
   line-height: 30px;
 }
 /* КнопОчка  */
-#tariff .tariff__content .tariff__button {
+.tariff__content .tariff__button {
   cursor: pointer;
   position: relative;
   display: flex;
@@ -372,7 +383,7 @@ header .container .header__links .dropdown:hover .dropdown-content {
   width: 100%;
   max-width: 300px;
 }
-#tariff .tariff__content .tariff__button .button__float {
+.tariff__content .tariff__button .button__float {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -388,13 +399,13 @@ header .container .header__links .dropdown:hover .dropdown-content {
   transition-duration: 1s;
   transition-timing-function: ease-in;
 }
-#tariff .tariff__content .tariff__button .button__float p {
+.tariff__content .tariff__button .button__float p {
   margin-top: 17px;
 }
-#tariff .tariff__content .tariff__button .button__link {
+.tariff__content .tariff__button .button__link {
   padding: 5px;
 }
-#tariff .tariff__content .tariff__button .button__link img {
+.tariff__content .tariff__button .button__link img {
   /* width: auto; */
   height: 40px;
 }
@@ -406,10 +417,45 @@ header .container .header__links .dropdown:hover .dropdown-content {
 #contact {
   margin-top: 50px;
   color: #333;
+  margin-bottom: 50px;
 }
+#contact .tariff__button {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+  }
+#contact .tariff__button .button__float {
+    position: absolute;
+    width: 100%;
+    padding-bottom: 15px;
+    background-color: #f1ebdd;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #b79271;
+    font-weight: 600;
+    font-size: 24px;
+    opacity: 1;
+    top: 0;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#contact .tariff__button .button__float p {
+    margin-top: 17px;
+  }
+#contact .tariff__button .button__link {
+    padding: 5px;
+  }
+#contact .tariff__button .button__link img {
+    /* width: auto; */
+    height: 40px;
+  }
 #contact .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 #contact .contact__info {
   width: 30%;
