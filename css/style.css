@@ -209,8 +209,8 @@ header .container .header__links .dropdown:hover .dropdown-content {
   background: url(../img/manicurv2.jpg) no-repeat center;
   background-size: 100%;
 }
-.box-soon{
-    background-color: #f7f5ee;
+.box-soon {
+  background-color: #f7f5ee;
 }
 .courses .courses__wrapp .courses__wrapp--box .box__title {
   width: 100%;
@@ -420,39 +420,39 @@ header .container .header__links .dropdown:hover .dropdown-content {
   margin-bottom: 50px;
 }
 #contact .tariff__button {
-    cursor: pointer;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 300px;
-  }
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+}
 #contact .tariff__button .button__float {
-    position: absolute;
-    width: 100%;
-    padding-bottom: 15px;
-    background-color: #f1ebdd;
-    border-radius: 20px;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    color: #b79271;
-    font-weight: 600;
-    font-size: 24px;
-    opacity: 1;
-    top: 0;
-    transition-duration: 1s;
-    transition-timing-function: ease-in;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 15px;
+  background-color: #f1ebdd;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #b79271;
+  font-weight: 600;
+  font-size: 24px;
+  opacity: 1;
+  top: 0;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
 }
 #contact .tariff__button .button__float p {
-    margin-top: 17px;
-  }
+  margin-top: 17px;
+}
 #contact .tariff__button .button__link {
-    padding: 5px;
-  }
+  padding: 5px;
+}
 #contact .tariff__button .button__link img {
-    /* width: auto; */
-    height: 40px;
-  }
+  /* width: auto; */
+  height: 40px;
+}
 #contact .container {
   display: flex;
   justify-content: space-evenly;
@@ -752,7 +752,7 @@ footer {
 footer .nav {
   display: flex;
   flex-direction: row;
-  width: 40%;
+  width: 50%;
   align-self: center;
   justify-content: space-around;
   font-size: 20px;
