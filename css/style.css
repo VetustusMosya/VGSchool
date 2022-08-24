@@ -197,8 +197,16 @@ header .container .header__links .dropdown:hover .dropdown-content {
   background: url(../img/eyes.jpg) no-repeat center;
   background-size: 100%;
 }
+.courses .courses__wrapp .box__pedicur {
+  background: url(../img/pedicur.jpg) no-repeat center;
+  background-size: 100%;
+}
 .courses .courses__wrapp .box__shugaring {
   background: url(../img/shugaring.jpg) no-repeat center;
+  background-size: 100%;
+}
+.courses .courses__wrapp .box__combinirovan {
+  background: url(../img/manicurv2.jpg) no-repeat center;
   background-size: 100%;
 }
 .courses .courses__wrapp .box__honey {
@@ -206,7 +214,7 @@ header .container .header__links .dropdown:hover .dropdown-content {
   background-size: 100%;
 }
 .courses .courses__wrapp .box__reserv {
-  background: url(../img/manicurv2.jpg) no-repeat center;
+  background: url(../img/eyes.jpg) no-repeat center;
   background-size: 100%;
 }
 .box-soon {
@@ -905,8 +913,8 @@ footer .nav__box:hover {
     width: 100%;
     min-height: 501px;
   }
-  .courses .courses__wrapp .box__lamin .box__title {
-    font-size: 26px;
+  .courses .courses__wrapp .box__combinirovan .box__title {
+    font-size: 20px;
   }
   .exposition .container {
     padding: 20px 0;
